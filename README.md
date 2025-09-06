@@ -50,7 +50,3 @@ Use the images in the `test_images/` folder to test predictions via the API or w
 ## API Endpoints
 
 - `/predict-image/`: Predict the digit from an uploaded image
-
-## License
-
-This project is licensed under the terms of the LICENSE file.
