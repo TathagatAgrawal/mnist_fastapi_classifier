@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Digit Classifier</title>
+  </head>
+
+  <body>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      "
+    >
+      <h1>Digit Classifier</h1>
+      <p>
+        Upload image:
+        <input
+          type="file"
+          id="imageInput"
+          accept="image/*"
+          onchange="previewImage()"
+        />
+      </p>
+      <br />
+      <img id="uploadedImage" style="width: 400px; display: none" />
+      <br />
+      <button onclick="uploadImage()">Classify</button>
+      <p id="predictionResult" style="font-size: larger"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
