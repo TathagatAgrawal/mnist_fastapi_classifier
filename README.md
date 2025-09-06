@@ -49,7 +49,7 @@ Use the images in the `test_images/` folder to test predictions via the API or w
 
 ## API Endpoints
 
-- `POST /predict` : Predict the digit from an uploaded image
+- `/predict-image/`: Predict the digit from an uploaded image
 
 ## License
 
